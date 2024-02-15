@@ -57,7 +57,7 @@ const ContactManagementSystem = () => {
         <label>Phone:</label>
         <input type="tel" name="phone" value={formData.phone} onChange={handleInputChange} />
         <button type="button" onClick={addContact}>
-          Add Contact
+          Save Contact
         </button>
       </form>
 
